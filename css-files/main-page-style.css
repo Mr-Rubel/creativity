@@ -1,0 +1,440 @@
+header{
+    background-image:
+    linear-gradient(#00000075,#00000075),
+    linear-gradient(#00000075,#00000075),
+    url(../images/brand-photo/slider.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mynav {
+    background: #00000038;
+}
+#menu:hover,
+#navbarDropdownMenuLink:hover{
+    color: tomato !important;
+    transition: all .3s;
+}
+img {
+    width: 50px;
+    border-radius: 5px;
+}
+.time{
+    font-family: arial;
+}
+.nav-item {
+    margin-left: 82px;
+    cursor: pointer;
+}
+.dropdown-menu.sho {
+    background: #272a2f;
+    position: relative;
+    top: 31px;
+}
+.link:hover .sho{
+    display: block;
+}
+.sho:hover a{
+    background:#272a2f;
+}
+.sho .down:hover{
+    color: tomato !important;
+    transition: all .3s;
+    margin-left: 3px;
+    width: 150px;
+}
+.text{
+    color: tomato;
+}
+.hire{
+    background: tomato !important;
+    border:none !important;
+    letter-spacing: 2px;
+    border:1px solid gray !important;
+}
+.hire:hover{
+    color: tomato !important;
+    background-color: #fff !important;
+    border:1px solid tomato !important;
+    letter-spacing: 2px;
+}
+.col-lg-1.offset-lg-4.hour {
+    height: 40px;
+    position: relative;
+    /* left: 43px; */
+}
+
+.col-lg-1.minute {
+    height: 40px;
+}
+
+.col-lg-1.second {
+    height: 40px;
+    position: relative;
+    top: 0px;
+    left: 10px;
+}
+
+.col-lg-1.session {}
+
+.col-lg-1.session {
+    position: relative;
+    right: -18px;
+}
+.sub-about-one{
+    background-image: url(../images/brand-photo/successful.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 298px;
+    height: 300px;
+    border-top: 2px solid gray;
+}
+.rounded-circle {
+    height: 239px;
+    width: 239px;
+    margin-top: 177px;
+    border: 5px solid white;
+}
+
+.hover-about{
+    background-color: #00000075;
+    opacity: 0;
+    height: 245px;
+    width: 239px;
+    position: relative;
+    bottom: 420px;
+    left: 556px;
+    transition: all .3s;
+}
+.rounded-circle:hover.hover-about:hover{
+    background-color: white;
+    opacity: 0.9;
+}
+.about-icon{
+    height: 50px;
+    width: 50px;
+    border:2px solid tomato;
+    float: left;
+    display: inline-block;
+    position: relative;
+    bottom: 84px;
+    left: -4px;
+    margin-left: 7px;
+    color: tomato;
+    text-align: center;
+    padding: 6px;
+    font-size: 22px;
+    transition: all .3s;
+}
+.about-icon:hover{
+    background-color: #040404;
+    border: 2px solid #ea5e44;
+    box-shadow:  0 0 11px 5px black;
+}
+#mail{
+    color: tomato !important;
+}
+.about-icon:hover .fab,#mail{
+    color: white;
+}
+#text-uppercase{
+    position: relative;
+    top: 118px;
+    color: tomato;
+}
+.two {
+    width: 681px;
+    position: relative;
+    top: 112px;
+    left:320px;
+    font-size: 20px;
+}
+.two a{
+    color: tomato;
+    transition: all .3s;
+}
+.two a:hover{
+    color: tomato;
+}
+.sub-about-two{
+    background-image:
+    linear-gradient(#00000075,#00000075),
+    linear-gradient(#00000075,#00000075),
+     url(../images/brand-photo/moon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-top: 2px solid gray;
+}
+.skill-container{
+    border-top: 2px solid gray;
+}
+.skills{
+    background-image:
+    linear-gradient(#00000090,#00000090),
+    linear-gradient(#00000090,#00000090),
+     url(../images/brand-photo/skills.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 958px;
+}
+.skill-sec-one{
+    width: 238px;
+    display: inline-block;
+    height: 351px;
+    border-radius: 8px;
+    border:1px solid white;
+    transition: all .3s;
+}
+.skill-sec-one:hover,.skill-sec-two:hover,.skill-sec-three:hover{
+    background-color: #fff;
+    color: black;
+    opacity: 0.8;
+    transform: translateY(-10px);
+    -webkit-box-shadow: 0 8px 10px -6px rgb(226, 21, 182);
+    -moz-box-shadow: 0 8px 10px -6px rgb(226, 21, 182);
+    box-shadow: 0 8px 10px -6px rgb(226, 21, 182);
+}
+.skill-sec-one:hover .icon,.skill-sec-two:hover .icon2,.skill-sec-three:hover .icon3{
+    background-color: black;
+    border: 1px solid tomato;
+    color: white;
+}
+.icon:hover,.icon2:hover,.icon3:hover{
+    box-shadow:  0 0 10px 5px black;
+}
+.skill-sec-two{
+    width: 238px;
+    border:1px solid white;
+    display: inline-block;
+    height: 351px;
+    border-radius: 8px;
+    margin-left: 66px;
+    transition: all .3s;
+}
+.skill-sec-three{
+    width: 263px;
+    border:1px solid white;
+    display: inline-block;
+    height: 351px;
+    border-radius: 8px;
+    margin-left: 60px;
+    transition: all .3s;
+}
+.skill-head{
+    color: tomato;
+}
+.skill-head {
+    margin-right: 223px;
+}
+.skill-column-two{
+    margin-bottom: -216px;
+    bottom: 81px;
+}
+#main-icon {
+    font-size: 49px;
+    margin-top: 17px;
+}
+.icon:hover #main-icon,.icon2:hover #main-icon,.icon3:hover #main-icon {
+    transform: rotate(360deg);
+    transition: all .8s;
+}
+.icon {
+    border: 1px solid white;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    bottom: 229px;
+    left: 67px;
+    transition: all .3s;
+}
+.icon2 {
+    border: 1px solid white;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    bottom: 229px;
+    left: 67px;
+    transition: all .3s;
+}
+.icon3 {
+    border: 1px solid white;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    bottom: 229px;
+    left: 77px;
+    transition: all .3s;
+}
+.design-head {
+    position: relative;
+    bottom: 216px;
+    left: 23px;
+    border-top: 2px solid tomato;
+    border-bottom: 2px solid tomato;
+    width: 144px;
+    color: tomato;
+}
+.design-head2 {
+    color: tomato;
+    position: relative;
+    bottom: 216px;
+    left: 19px;
+    border-top: 2px solid tomato;
+    border-bottom: 2px solid tomato;
+    width: 197px;
+}
+.design-head3 {
+    position: relative;
+    bottom: 216px;
+    border-top: 2px solid tomato;
+    border-bottom: 2px solid tomato;
+    width: 238px;
+    left: 12px;
+    color: tomato;
+}
+.design-list{
+    list-style: none;
+    position: relative;
+    bottom: 209px;
+    width: 170px;
+}
+.design-list li:before{
+    content: "\f058";
+    font-weight: 900;
+    font-family: Font Awesome 5 Free;
+    margin-right: 5px;
+}
+.design-list li:hover{
+    margin-left: 4px;
+    color: tomato;
+    font-weight: bolder;
+    transition: all .3s;
+}
+.service-section{
+    background-image:
+    linear-gradient(#00000090,#00000090),
+    linear-gradient(#00000090,#00000090),
+     url(../images/brand-photo/service.jpg);
+    background-size: 1423px 984px;
+    background-repeat: no-repeat;
+    border-top: 2px solid gray;
+}
+.service-header {
+    color: tomato;
+}
+.service-one,.service-two,.service-three,.service-four,.service-five{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+    transition: all .5s;
+}
+.service-one:hover .service-h1,.service-two:hover .service-h2,.service-three:hover .service-h3,.service-four:hover .service-h4,.service-five:hover .service-h5{
+    color: tomato;
+}
+.service-one:hover .service-p1,.service-two:hover .service-p2,.service-three:hover .service-p3,.service-four:hover .service-p4,.service-five:hover .service-p5{
+    color: black;
+}
+.service-one:hover,.service-two:hover,.service-three:hover,.service-four:hover,.service-five:hover{
+    background-color: #fff;
+    box-shadow: 0 0 4px 5px #fff;
+}
+.service-h1,.service-h2,.service-h3,.service-h4,.service-h5{
+    text-transform: uppercase;
+}
+.first {
+    position: relative;
+    height: 609px;
+    bottom: 100px;
+}
+.second {
+    height: 490px;
+    position: relative;
+    bottom: 230px;
+    left: -43px;
+}
+h4.service-h1 {
+    position: relative;
+    top: 51px;
+    left: 34px;
+}
+p.service-p1 {
+    position: relative;
+    top: 47px;
+    width: 244px;
+    left: 19px;
+    text-align: center;
+}
+.service-two.rounded-circle {
+    position: relative;
+}
+h4.service-h2 {
+    position: relative;
+    font-size: 22px;
+    top: 71px;
+    left: 19px;
+    display: inline-block;
+}
+p.service-p2 {
+    position: relative;
+    top: 71px;
+    width: 245px;
+    text-align: center;
+    left: 21px;
+}
+.service-three.rounded-circle {
+    position: relative;
+}
+h4.service-h3 {
+    display: inline-block;
+    position: relative;
+    top: 37px;
+    left: 47px;
+}
+p.service-p3 {
+    width: 234px;
+    position: relative;
+    top: 42px;
+    text-align: center;
+    left: 25px;
+}
+.service-four.rounded-circle {
+    position: relative;
+}
+h4.service-h4 {
+    display: inline-block;
+    position: relative;
+    top: 36px;
+    text-align: center;
+    left: 48px;
+}
+p.service-p4 {
+    position: relative;
+    top: 55px;
+    width: 258px;
+    text-align: center;
+    left: 16px;
+}
+.service-five.rounded-circle {
+    position: relative;
+}
+h4.service-h5 {
+    position: relative;
+    display: inline-block;
+    left: 69px;
+    top: 20px;
+}
+p.service-p5 {
+    position: relative;
+    text-align: center;
+    top: 20px;
+    width: 272px;
+    left: 8px;
+}

@@ -1,0 +1,63 @@
+@media(max-width: 576px){
+    .col-lg-1.col-sm-3.col-8.p-3.offset-3.offset-md-0.offset-sm-0.offset-lg-4.hour {
+        width: 10%;
+        position: relative;
+        right: 95px;
+        font-size: 36px;
+        bottom: -25px;
+    }
+    
+    .col-lg-1.col-sm-3.col-8.p-3.offset-3.offset-md-0.offset-sm-0.minute {
+        width: 10%;
+        position: relative;
+        bottom: 14px;
+        left: 21px;
+        font-size: 36px;
+    }
+    
+    .col-lg-1.col-sm-3.col-8.p-3.offset-3.offset-md-0.offset-sm-0.second {
+        position: relative;
+        width: 10%;
+        top: -53px;
+        left: 128px;
+        font-size: 36px;
+    }
+    
+    .col-lg-1.col-sm-3.col-8.p-3.offset-3.offset-md-0.offset-sm-0.session {
+        width: 10%;
+        position: relative;
+        bottom: 92px;
+        left: 221px;
+        font-size: 36px;
+    }
+    h1.headline.text-uppercase.mb-4.text {
+        font-size: 26px;
+        text-align: center;
+        width: 100%;
+    }
+    
+    h1.text-uppercase.mt-5.text {
+        font-size: 30px;
+        width: 100%;
+    }
+    
+    div#about {
+        background-size: 100% 100%;
+    }
+    p.text-center.two {
+        width: 88%;
+        margin-left: -296px;
+        font-size: 14px;
+    }
+    .sub-about-one{
+        background-size:100% 100%;
+    }
+.skill-head {
+        font-size: 29px;
+        width: 100%;
+        position: relative;
+        left: -117px;
+        padding: 6px !important;
+        margin: 5px 0px;
+    }
+}
